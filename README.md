@@ -59,11 +59,11 @@ catch(err) {
 }
 ```
 
-[npm-image]: https://img.shields.io/npm/v/@calistyle/infutor.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@calistyle/infutor
-[ci-image]: https://img.shields.io/circleci/project/github/CaliStyle/infutor/master.svg
-[ci-url]: https://circleci.com/gh/CaliStyle/infutor/tree/master
-[daviddm-image]: http://img.shields.io/david/CaliStyle/infutor.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/CaliStyle/infutor
-[coverage-image]: https://img.shields.io/codeclimate/coverage/github/CaliStyle/infutor.svg?style=flat-square
-[coverage-url]: https://codeclimate.com/github/CaliStyle/infutor/coverage
+[npm-image]: https://img.shields.io/npm/v/@calistyle/infutor-node.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@calistyle/infutor-node
+[ci-image]: https://img.shields.io/circleci/project/github/CaliStyle/infutor-node/master.svg
+[ci-url]: https://circleci.com/gh/CaliStyle/infutor-node/tree/master
+[daviddm-image]: http://img.shields.io/david/CaliStyle/infutor-node.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/CaliStyle/infutor-node
+[coverage-image]: https://img.shields.io/codeclimate/coverage/github/CaliStyle/infutor-node.svg?style=flat-square
+[coverage-url]: https://codeclimate.com/github/CaliStyle/infutor-node/coverage
