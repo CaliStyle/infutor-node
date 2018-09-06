@@ -1,11 +1,11 @@
-# NMI SDK
+# Infutor SDK
 
 [![NPM version][npm-image]][npm-url]
 [![Build Status][ci-image]][ci-url]
 [![Test Coverage][coverage-image]][coverage-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
 
-Strongly typed Node SDK for Networking Merchants Inc's (NMI) Three Step Redirect API, Query API, and Direct API
+Strongly typed Node SDK for Inftor's IDMAX
 
 # Installation
 ```
