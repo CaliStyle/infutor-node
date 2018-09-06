@@ -59,8 +59,8 @@ catch(err) {
 }
 ```
 
-[npm-image]: https://img.shields.io/npm/v/@calistyle/infutor-node.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@calistyle/infutor-node
+[npm-image]: https://img.shields.io/npm/v/@calistyle/infutor.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@calistyle/infutor
 [ci-image]: https://img.shields.io/circleci/project/github/CaliStyle/infutor-node/master.svg
 [ci-url]: https://circleci.com/gh/CaliStyle/infutor-node/tree/master
 [daviddm-image]: http://img.shields.io/david/CaliStyle/infutor-node.svg?style=flat-square
