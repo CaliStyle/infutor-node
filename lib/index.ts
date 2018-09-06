@@ -56,8 +56,7 @@ export class Infutor {
    * @param key
    */
   transformJson(obj, key = null) {
-
-    if(!this.config.transform) {
+    if (!this.config.transform) {
       return obj;
     }
     return obj
@@ -80,7 +79,13 @@ export class Infutor {
       strictSSL: true
     })
       .then((res) => {
-        return this.transformJson(res)
+        if(res.ResponseCode && res.ResponseCode !== 0) {
+          res.isInfutor = true
+          throw this.transformJson(res)
+        }
+        else {
+          return this.transformJson(res)
+        }
       })
   }
 }

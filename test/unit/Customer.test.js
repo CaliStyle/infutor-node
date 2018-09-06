@@ -11,10 +11,9 @@ describe('#Customer', () => {
   })
   it('should get customer', (done) => {
     infutor.customer.get({
-      FName: 'Scott',
-      LName: 'Wyatt',
-      Phone: '7658943429',
-      Email: 'scottwyatt86@gmail.com'
+      fname: 'John',
+      lname: 'Smith',
+      phone: '1234567890'
     })
       .then(customer => {
         console.log('RESULT', customer)
