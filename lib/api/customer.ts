@@ -11,6 +11,6 @@ export const Customer = {
    */
   get: async function(customer = {}) {
     let res = await this.query(customer)
-    return res
+    return JSON.parse(res)
   },
 }
