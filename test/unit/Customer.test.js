@@ -3,8 +3,7 @@ describe('#Customer', () => {
   let infutor
 
   beforeEach(() => {
-    infutor = new Infutor()
-    infutor.configure({
+    infutor = new Infutor({
       login: process.env.LOGIN,
       password: process.env.PASSWORD
     })

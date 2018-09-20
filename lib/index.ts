@@ -9,7 +9,7 @@ const urlQuery = 'https://api.yourdatadelivery.com/service/rest/IDComplete'
 export class Infutor {
   public customer // : Customer
 
-  public config: {
+  private config: {
     apiKey?: string,
     login?: string,
     password?: string,
@@ -17,7 +17,8 @@ export class Infutor {
     debug?: boolean
   } = {}
 
-  constructor() {
+  constructor(config) {
+    this.config = this.configure(config)
 
     this.customer = Customer
 
@@ -41,7 +42,7 @@ export class Infutor {
    * @param {bool}   options.debug        output verbose debug information
    */
   configure(options) {
-    this.config = {
+    return {
       apiKey: options.apiKey || this.config.apiKey || '',
       login: options.login || this.config.login || '',
       password: options.password || this.config.password || '',
